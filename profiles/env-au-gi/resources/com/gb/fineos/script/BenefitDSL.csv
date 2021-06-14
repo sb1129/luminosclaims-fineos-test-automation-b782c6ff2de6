@@ -1,0 +1,8 @@
+Notification Type,CaseNumber,CaseAliasValue
+Liability Notification,Liability_PD_Claim,Liability_PD_Benefit
+Liability Notification,Liability_PI_Claim,Liability_PI_Benefit
+Travel Notification,Travel_PI_Claim,Travel_PI_Benefit
+Travel Notification,Travel_PD_Claim,Travel_PD_Benefit
+Motor_Notification,Motor_Claim,Motor_Benefit
+Property Notification,Property_PI_Claim,Property_PI_Benefit
+Property Notification,Property_PD_Claim,Property_PD_Benefit

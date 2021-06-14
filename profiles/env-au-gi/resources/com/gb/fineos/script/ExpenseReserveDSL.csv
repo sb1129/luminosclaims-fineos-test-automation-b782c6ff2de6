@@ -1,0 +1,8 @@
+BenefitCaseAlias,ReserveExpenseAmount,ReserveStatus,ReserveSectionType,ReserveType
+Liability_PD_Benefit,5501,Awaiting Approval,Expenses,Excess Refund
+Liability_PI_Benefit,5501,Awaiting Approval,Expenses,Excess Refund
+Travel_PI_Benefit,501,Awaiting Approval,Expenses,Excess Refund
+Travel_PD_Benefit,501,Awaiting Approval,Expenses,Excess Refund
+Motor_Benefit,501,Awaiting Approval,Expenses,Excess Refund
+Property_PI_Benefit,501,Awaiting Approval,Expenses,Excess Refund
+Property_PD_Benefit,501,Awaiting Approval,Expenses,Excess Refund

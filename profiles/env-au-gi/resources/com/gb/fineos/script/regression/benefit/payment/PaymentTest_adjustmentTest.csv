@@ -1,0 +1,8 @@
+Runmode,UserName,Password,UserNameFullName,NOT_CaseAliasValue,CLM_CaseAliasValue,BEN_CaseAliasValue,FXAdjustmentType,Revised Distribution Amount,Revised Payment Reference,Adjustment_Amount,UploadDocumentToTask,TaskName,Revised Payment Type
+Y,QLD_LCC1,,QLD Liability CC1,Liability_PD_Notification,Liability_PD_Claim,Liability_PD_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement
+Y,QLD_LCC1,,QLD Liability CC1,Liability_PI_Notification,Liability_PI_Claim,Liability_PI_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement
+Y,QLD_TCC1,,QLD Travel CC1,Travel_PI_Notification,Travel_PI_Claim,Travel_PI_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement
+Y,QLD_TCC1,,QLD Travel CC1,Travel_PD_Notification,Travel_PD_Claim,Travel_PD_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement
+Y,QLD_MCC1,,QLD Motor CC1,Motor_Notification,Motor_Claim,Motor_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement
+Y,QLD_PCC1,,QLD Property CC1,Property_PI_Notification,Property_PI_Claim,Property_PI_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement
+Y,QLD_PCC1,,QLD Property CC1,Property_PD_Notification,Property_PD_Claim,Property_PD_Benefit,positive,5000,FX Adjustment,10,CSVFineosToDMS.csv,Foreign Exchange Adjustment Required,International Settlement

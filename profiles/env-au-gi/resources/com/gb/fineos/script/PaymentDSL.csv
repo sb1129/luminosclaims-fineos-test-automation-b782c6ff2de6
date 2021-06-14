@@ -1,0 +1,8 @@
+BenefitCaseAlias,Payment Type,Basic Amount,Payment Reference,Distribution Amount,StatisticalPayment,FinalPayment
+Liability_PD_Benefit,Expenses - Cash Amount subject to GST,100,Test,100,No,No
+Liability_PI_Benefit,Expenses - Cash Amount subject to GST,200,Test,200,No,No
+Travel_PI_Benefit,Expenses - Cash Amount subject to GST,300,Test,300,No,No
+Travel_PD_Benefit,Expenses - Cash Amount subject to GST,300,Test,300,No,No
+Motor_Benefit,Expenses - Cash Amount subject to GST,300,Test,300,No,No
+Property_PI_Benefit,Expenses - Cash Amount subject to GST,500,Test,500,No,No
+Property_PD_Benefit,Expenses - Cash Amount subject to GST,500,Test,500,No,No

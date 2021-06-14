@@ -1,0 +1,5 @@
+Runmode,UserName,Password,firstName,lastName,BusinessType,Category,DocumentName,PrivacyTag
+Y,QLD_LCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required
+Y,QLD_MCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required
+Y,QLD_PCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required
+Y,QLD_TCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required

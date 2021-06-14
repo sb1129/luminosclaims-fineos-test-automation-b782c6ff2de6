@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite" parallel="classes" thread-count="${thread.count}"
+       data-provider-thread-count="${thread.count}">
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke.${Test_Instance}"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.gb.fineos.script.smoke.*"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+Runmode,UserName,Password,UserNameFullName,NOT_CaseAliasValue,NOT_firstName,CLM_CaseAliasValue,NOT_lastName,BEN_CaseAliasValue,BEN_PAYEE_PartiesType,BEN_PAYEE_firstName,BEN_PAYEE_lastName,BEN_SettlementOfferApproved,Category,BusinessType,DocumentName
+Y,GLCC1,,Liability CC1,Liability_PD_Notification,Michelle,Liability_PD_Claim,Davis,Liability_PD_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt
+Y,GLCC1,,Liability CC1,Liability_PI_Notification,Michelle,Liability_PI_Claim,Davis,Liability_PI_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt
+Y,HCC1,,Health CC1,Health_Notification,Michelle,Health_Claim,Davis,Health_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt
+Y,MCC1,,Motor CC1,Motor_Notification,Michelle,Motor_Claim,Davis,Motor_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt
+Y,MICC1,,Misc CC1,Misc_PD_Notification,Michelle,Misc_PD_Claim,Davis,Misc_PD_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt
+Y,MICC1,,Misc CC1,Misc_PI_Notification,Michelle,Misc_PI_Claim,Davis,Misc_PI_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt
+Y,PCC1,,Property CC1,Property_Notification,Michelle,Property_Claim,Davis,Property_Benefit,Person,Michelle,Davis,true,Default,Insurer Approval,TextFileType.txt

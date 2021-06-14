@@ -1,0 +1,8 @@
+TeamLead,TeamLeadFullName,BranchManger,BranchMangerFullName,OperationalManager,OperationalManagerFullName,CFO,CFOFullName,Role,BenefitCaseAlias,Payment Type,FinalPayment
+GLTL1,Liability TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Claims Consultant,Liability_PI_Benefit,Expenses - Cash Amount subject to GST,No
+GLTL1,Liability TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 1-TeamLead,Liability_PD_Benefit,Expenses - Cash Amount subject to GST,No
+HTL1,Health TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 2-Branch Manager,Health_Benefit,Expenses - Cash Amount subject to GST,No
+MTL1,Motor TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 3-OperationalManager,Motor_Benefit,Expenses - Cash Amount subject to GST,No
+MITL1,Misc TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 4-CFO,Misc_PD_Benefit,Expenses - Cash Amount subject to GST,No
+MITL1,Misc TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 5-Claims Consultant,Misc_PI_Benefit,Expenses - Cash Amount subject to GST,No
+PTL1,Property TL1,NSW_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,,Property_Benefit,Expenses - Cash Amount subject to GST,No

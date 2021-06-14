@@ -1,0 +1,5 @@
+Runmode,UserName,Password,firstName,lastName,BusinessType,Category,DocumentName,PrivacyTag,Status,fileName,ReasonForAction,notifier,linkedDocument,title,fullName
+Y,QLD_LCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Unknown,Doc1.pdf,Duplicate,Shree,Additional DMS Metadata,Attachment Doc1.pdf,QLD Liability CC1
+Y,QLD_MCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Unknown,Doc1.pdf,Duplicate,Shree,Additional DMS Metadata,Attachment Doc1.pdf,QLD Motor CC1
+Y,QLD_PCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Unknown,Doc1.pdf,Duplicate,Shree,Additional DMS Metadata,Attachment Doc1.pdf,QLD Property CC1
+Y,QLD_TCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Unknown,Doc1.pdf,Duplicate,Shree,Additional DMS Metadata,Attachment Doc1.pdf,QLD Travel CC1

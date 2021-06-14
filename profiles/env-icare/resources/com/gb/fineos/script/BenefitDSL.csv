@@ -1,0 +1,8 @@
+Notification Type,CaseNumber,CaseAliasValue
+General Liability,Liability_PI_Claim,Liability_PI_Benefit
+General Liability,Liability_PD_Claim,Liability_PD_Benefit
+Health Liability,Health_Claim,Health_Benefit
+Motor,Motor_Claim,Motor_Benefit
+Misc,Misc_PD_Claim,Misc_PD_Benefit
+Misc,Misc_PI_Claim,Misc_PI_Benefit
+Property,Property_Claim,Property_Benefit

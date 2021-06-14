@@ -1,0 +1,2 @@
+Runmode,UserName,Password,UserNameFullName,NOT_CaseAliasValue,CLM_CaseAliasValue,BEN_CaseAliasValue,BEN_EXP_APP,Recovery Date,Anticipated Amount,Recovery Description,Reserve Amount,Recovery Type,firstName,lastName,PartiesType
+Y,QLD_LCC1,,QLD Liability CC1,Liability_PD_Notification,Liability_PD_Claim,Liability_PD_Benefit,true,08/05/2021,10,Test,10,Salvage Recovery - Parts,Michelle,Davis,Person

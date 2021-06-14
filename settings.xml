@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>http://gbbnevpsonr1.gbau.ajgco.com:9000</sonar.host.url>
+            </properties>
+        </profile>
+    </profiles>
+
+    <mirrors>
+        <mirror>
+            <id>nexus-public</id>
+            <mirrorOf>central</mirrorOf>
+            <url>http://jenkins.gbapres.local:8081/nexus/content/groups/public/</url>
+        </mirror>
+        <mirror>
+            <id>nexus-fineos</id>
+            <mirrorOf>fineos-generic-*</mirrorOf>
+            <url>http://jenkins.gbapres.local:8081/nexus/content/groups/fineos-generic/</url>
+        </mirror>
+    </mirrors>
+</settings>
+
+

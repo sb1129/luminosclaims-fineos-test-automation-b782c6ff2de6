@@ -1,0 +1,8 @@
+BenefitCaseAlias,ReserveExpenseAmount,ReserveStatus,ReserveSectionType,ReserveType
+Liability_PI_Benefit,9994120,Awaiting Approval,Expenses,Salvage Fees
+Liability_PD_Benefit,9994120,Awaiting Approval,Expenses,Salvage Fees
+Health_Benefit,9994120,Awaiting Approval,Expenses,Salvage Fees
+Motor_Benefit,9994120,Awaiting Approval,Expenses,Dispute and Mediation Costs
+Misc_PD_Benefit,9994120,Awaiting Approval,Expenses,Dispute and Mediation Costs
+Misc_PI_Benefit,9994120,Awaiting Approval,Expenses,Dispute and Mediation Costs
+Property_Benefit,9994120,Awaiting Approval,Expenses,Dispute and Mediation Costs

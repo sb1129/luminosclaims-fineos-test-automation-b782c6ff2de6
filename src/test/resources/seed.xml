@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Seed Test Suite" parallel="classes" thread-count="${thread.count}" data-provider-thread-count="${thread.count}">
+    <test name="Seed Tests">
+        <groups>
+            <run>
+                <include name="seed.common"/>
+                <include name="seed.${Test_Instance}"/>
+            </run>
+            <dependencies>
+                <group name="smoke.${Test_Instance}" depends-on="seed.common"/>
+            </dependencies>
+        </groups>
+        <packages>
+            <package name="com.gb.fineos.script.seed.*"/>
+        </packages>
+    </test>
+</suite>

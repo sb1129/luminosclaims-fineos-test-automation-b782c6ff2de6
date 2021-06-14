@@ -1,0 +1,6 @@
+Runmode,UserName,Password,firstName,lastName,BusinessType,Category,DocumentName,PrivacyTag,fileName,ReasonForAction
+Y,GLCC1,,srikanth,behra,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Doc1.pdf,Duplicate
+Y,MCC1,,srikanth,behra,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Doc1.pdf,Duplicate
+Y,PCC1,,srikanth,behra,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Doc1.pdf,Duplicate
+Y,HCC1,,srikanth,behra,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Doc1.pdf,Duplicate
+Y,MICC1,,srikanth,behra,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Doc1.pdf,Duplicate

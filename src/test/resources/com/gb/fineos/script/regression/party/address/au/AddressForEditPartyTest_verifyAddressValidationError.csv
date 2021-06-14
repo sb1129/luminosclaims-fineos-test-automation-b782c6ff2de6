@@ -1,0 +1,2 @@
+Runmode,UserName,Password,firstName,lastName,Street Type,State,unitType,floorType,postalType,validationError
+Y,uft,,Michelle,Davis,Unknown,Unknown,Unknown,Unknown,Unknown,Suburb is mandatory State is mandatory Postcode is mandatory Street Type is required Suburb is required State is required PostCode is required

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="f704dc3a-e8d4-44d5-9382-f3ec5a4eabd6" activeEnvironment="Default" name="Project 1" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="NexusSearchTestSuite"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="false"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="Search TestCase"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="9d20622e-6db4-4bea-a106-2b66c691e71f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://jenkins.gbapres.local:8081" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://jenkins.gbapres.local:8081</con:endpoint></con:endpoints><con:resource name="Search" path="/nexus/service/local/lucene/search" id="a32211ba-5811-474a-8c0f-fa483443fce6"><con:settings/><con:parameters/><con:method name="Search 1" id="00b3ea32-edbb-4501-bd79-52882d23b2b2" method="GET"><con:settings/><con:parameters><con:parameter><con:name>r</con:name><con:value>fineos-generic-snapshots</con:value><con:style>QUERY</con:style><con:default>fineos-generic-snapshots</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>g</con:name><con:value>au.com.gbtpa.fineos</con:value><con:style>QUERY</con:style><con:default>au.com.gbtpa.fineos</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>a</con:name><con:value>frontoffice</con:value><con:style>QUERY</con:style><con:default>frontoffice</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>v</con:name><con:value>5.3.*</con:value><con:style>QUERY</con:style><con:default>5.3.*</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/xml; charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element>searchNGResponse</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>json</con:mediaType><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="NexusSnapshotExample" id="bf37ae80-911d-4d95-9414-683e09e92e9e" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;entry key="Content-Type" value="application/json" xmlns="http://eviware.com/soapui/config"/></con:setting></con:settings><con:endpoint>http://jenkins.gbapres.local:8081</con:endpoint><con:request/><con:originalUri>http://jenkins.gbapres.local/nexus/service/local/lucene/search</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="a" value="frontoffice"/>
+  <con:entry key="r" value="fineos-generic-snapshots"/>
+  <con:entry key="v" value="5.2.*"/>
+  <con:entry key="g" value="au.com.gbtpa.fineos"/>
+</con:parameters><con:parameterOrder><con:entry>r</con:entry><con:entry>g</con:entry><con:entry>a</con:entry><con:entry>v</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="d8e54ef2-ddb9-4c20-9c30-4825e04a3007" name="NexusSearchTestSuite"><con:description>TestSuite generated for REST Service [http://jenkins.gbapres.local:8081]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="fc6e1770-170c-4440-be5b-9f06754cde23" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Search TestCase" searchProperties="true"><con:description>TestCase generated for REST Resource [Search] located at [/nexus/service/local/lucene/search]</con:description><con:settings/><con:testStep type="restrequest" name="NexusSnapshotExample" id="210a0833-904b-4f64-8162-b832232added"><con:settings/><con:config service="http://jenkins.gbapres.local:8081" resourcePath="/nexus/service/local/lucene/search" methodName="Search 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="NexusSnapshotExample" id="bf37ae80-911d-4d95-9414-683e09e92e9e" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://jenkins.gbapres.local:8081</con:endpoint><con:request/><con:originalUri>http://jenkins.gbapres.local/nexus/service/local/lucene/search</con:originalUri><con:assertion type="XPath Match" id="d54ef694-c9c4-4893-9c9e-20bce8784815" name="XPath Match"><con:configuration><path>//artifact/latestSnapshot</path><content>5.2.0-SNAPSHOT</content><allowWildcards>false</allowWildcards><ignoreNamspaceDifferences>false</ignoreNamspaceDifferences><ignoreComments>false</ignoreComments></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="a" value="frontoffice"/>
+  <con:entry key="r" value="fineos-generic-snapshots"/>
+  <con:entry key="v" value="5.2.*"/>
+  <con:entry key="g" value="au.com.gbtpa.fineos"/>
+</con:parameters><con:parameterOrder><con:entry>r</con:entry><con:entry>g</con:entry><con:entry>a</con:entry><con:entry>v</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

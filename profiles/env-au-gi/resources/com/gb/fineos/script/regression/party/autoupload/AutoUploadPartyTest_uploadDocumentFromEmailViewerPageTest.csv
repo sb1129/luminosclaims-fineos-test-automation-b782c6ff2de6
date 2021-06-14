@@ -1,0 +1,5 @@
+Runmode,UserName,Password,firstName,lastName,BusinessType,Category,DocumentName,PrivacyTag,Count,UploadingMessage,ConfirmationMessage
+Y,QLD_LCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_Test for failing to upload doc.EML,Not Required,1,Attachment(s) are being uploaded and should appear on the Documents tab shortly.,"badfile has failed to upload, please attempt the upload again."
+Y,QLD_MCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,3,Attachment(s) are being uploaded and should appear on the Documents tab shortly.,Attachment(s) successfully uploaded.
+Y,QLD_PCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,3,Attachment(s) are being uploaded and should appear on the Documents tab shortly.,Attachment(s) successfully uploaded.
+Y,QLD_TCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,3,Attachment(s) are being uploaded and should appear on the Documents tab shortly.,Attachment(s) successfully uploaded.

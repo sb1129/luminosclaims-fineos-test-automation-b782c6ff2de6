@@ -1,0 +1,2 @@
+Runmode,UserName,Password,Address Type,validationError
+Y,uft,,Home,Street is mandatory Suburb is mandatory State is mandatory Postcode is mandatory Street is required Street Type is required Suburb is required State is required PostCode is required

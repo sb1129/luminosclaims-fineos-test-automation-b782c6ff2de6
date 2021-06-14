@@ -1,0 +1,8 @@
+TeamLead,TeamLeadFullName,BranchManger,BranchMangerFullName,OperationalManager,OperationalManagerFullName,CFO,CFOFullName,Role,BenefitCaseAlias,Payment Type,FinalPayment
+QLD_LTL1,QLD Liability TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Claims Consultant,Liability_PD_Benefit,Expenses - Cash Amount subject to GST,No
+QLD_LTL1,QLD Liability TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 1-TeamLead,Liability_PI_Benefit,Expenses - Cash Amount subject to GST,No
+QLD_TTL1,QLD Travel TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 2-Branch Manager,Travel_PI_Benefit,Expenses - Cash Amount subject to GST,No
+QLD_TTL1,QLD Travel TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 3-OperationalManager,Travel_PD_Benefit,Expenses - Cash Amount subject to GST,No
+QLD_MTL1,QLD Motor TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 4-CFO,Motor_Benefit,Expenses - Cash Amount subject to GST,No
+QLD_PTL1,QLD Property TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,Approver Level 5-Claims Consultant,Property_PI_Benefit,Expenses - Cash Amount subject to GST,No
+QLD_PTL1,QLD Property TL1,QLD_BM1,Branch Manager1,LU_OM1,Operations Manager1,LU_CFO,CFO,,Property_PD_Benefit,Expenses - Cash Amount subject to GST,No

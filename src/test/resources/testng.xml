@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="fineos-test-automation Suite">
+	<suite-files>
+		<suite-file path="smoke.xml" />
+        <suite-file path="regression.xml" />
+        <suite-file path="integration.xml" />
+        <suite-file path="auth.xml" />
+	</suite-files>
+</suite>

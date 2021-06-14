@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" parallel="classes" thread-count="${thread.count}" data-provider-thread-count="${thread.count}">
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="regression.notification.${Test_Instance}"/>
+                <include name="regression.claim.${Test_Instance}"/>
+                <include name="regression.benefit.${Test_Instance}"/>
+                <include name="regression.${Test_Instance}" />
+            </run>
+            <dependencies>
+                <group name="regression.claim.${Test_Instance}" depends-on="regression.notification.${Test_Instance}"/>
+                <group name="regression.benefit.${Test_Instance}" depends-on="regression.claim.${Test_Instance}"/>
+            </dependencies>
+
+        </groups>
+        <packages>
+            <package name="com.gb.fineos.script.regression.*"/>
+        </packages>
+    </test>
+</suite>

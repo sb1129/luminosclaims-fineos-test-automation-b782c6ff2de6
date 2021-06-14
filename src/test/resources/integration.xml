@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Integration Test Suite" parallel="methods" thread-count="${thread.count}" data-provider-thread-count="${thread.count}">
+    <test name="Integration Tests">
+        <groups>
+            <run>
+                <include name="integration.*.${Test_Instance}"/>
+                <include name="integration.${Test_Instance}"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.gb.fineos.script.integration.*"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,5 @@
+Runmode,UserName,Password,firstName,lastName,BusinessType,Category,DocumentName,PrivacyTag,Attached files
+Y,QLD_LCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,Doc1.pdf;Doc2.pdf;Doc3.pdf;Doc4.pdf;Doc5.pdf
+Y,QLD_MCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,2Doc1.pdf;Doc2.pdf;Doc3.pdf;Doc4.pdf;Doc5.pdf
+Y,QLD_PCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,2Doc1.pdf;Doc2.pdf;Doc3.pdf;Doc4.pdf;Doc5.pdf
+Y,QLD_TCC1,,michelle,davis,Outbound Correspondence,Unknown,SELENIUMAUTOMATIONTEST_FAKE_EMAIL_5_ATT.EML,Not Required,2Doc1.pdf;Doc2.pdf;Doc3.pdf;Doc4.pdf;Doc5.pdf

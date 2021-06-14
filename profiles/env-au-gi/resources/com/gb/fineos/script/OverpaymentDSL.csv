@@ -1,0 +1,8 @@
+BenefitCaseAlias,Revised Payment Type,Revised Basic Amount,Revised Payment Reference,Revised Distribution Amount
+Liability_PD_Benefit,Expenses - Cash Amount subject to GST,50,Test,50
+Liability_PI_Benefit,Expenses - Cash Amount subject to GST,150,Test,150
+Travel_PI_Benefit,Expenses - Cash Amount subject to GST,250,Test,250
+Travel_PD_Benefit,Expenses - Cash Amount subject to GST,250,Test,250
+Motor_Benefit,Expenses - Cash Amount subject to GST,250,Test,250
+Property_PI_Benefit,Expenses - Cash Amount subject to GST,250,Test,250
+Property_PD_Benefit,Expenses - Cash Amount subject to GST,250,Test,250
